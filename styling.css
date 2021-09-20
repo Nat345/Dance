@@ -8,23 +8,23 @@
 
 }
     body {
-    background-color: var(--col1);
-    color: var(--col2);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h1 {
-color: var(--col1);
-text-align: center;
-font: italic 200% fantasy;
-}
-p {
-background-color: var(--col4);
-color: #333300;
-text-align: right;
-border: 3px groove #FFFF33;
-}
+        background-color: var(--col1);
+        color: var(--col2);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h1 {
+        color: var(--col1);
+        text-align: center;
+        font: italic 200% fantasy;
+    }
+    p {
+        background-color: var(--col4);
+        color: #333300;
+        text-align: right;
+        border: 3px groove #FFFF33;
+    }
    .myInd {
-    display : flex;
-    justify-content: space-evenly;
-    padding : 10px;
-   }
+        display : flex;
+        justify-content: space-evenly;
+        padding : 10px;
+    }
