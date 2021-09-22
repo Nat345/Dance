@@ -9,7 +9,6 @@
 
     }
     body {
-        color: var(--col2);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     h1 {
@@ -17,10 +16,37 @@
         font: italic bold 100%;
     }
 
-    #myInd p{
-        background-color: #F59776;
-    }
+        #myIndex {
+        gap : 30px;
+        padding: 30px;
+        }
+
+        #myIndex a:hover{background-color: #F59776;}
+       
+        #myInd {
+        display : flex;
+        flex-direction: row;
+        gap : 30px;
+        float: right;
+        }
 
 
-   @media (max-width :700px) {
-   }
+        th {
+            text-align: center;
+            background-color: var(--col5);
+          }
+
+          table {
+              padding: 30px;
+              border: solid;
+              border-collapse: collapse;
+          }
+
+          table, th, td {
+            border: 1px solid black;
+          }
+
+
+
+        @media (max-width :700px) {
+        }
