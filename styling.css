@@ -6,44 +6,78 @@
     --col4: #FF875D;
     --col5:#00DEB2;
     --col6: #CBF7FF;
+    
 
     }
     body {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: var(--col6);
+        margin: 0;        
     }
-    h1 {
+
+    h1{
         text-align: center;
-        font: italic bold 100%;
     }
+
+    #imgOne {
+        float: right;
+        padding-left: 15px;
+    }
+
+    #myBody {
+        padding: 30px;
+        margin-top: 50px;
+    }
+
 
         #myIndex {
         gap : 30px;
         padding: 30px;
+        background-color: var(--col5);
+        font-size: large;
+        position: fixed;
+        top: 0;
+        width: 100%;
         }
 
-        #myIndex a:hover{background-color: #F59776;}
+
+        #myIndex a:hover{background: #F59776;}
+
+        
        
         #myInd {
         display : flex;
         flex-direction: row;
         gap : 30px;
         float: right;
+        padding-right: 70px;
+        }
+
+        #footer {
+            text-align: center;
+            font-size: medium;
+            padding: 5px;
+            background-color: var(--col5);
+            height: 40px;
         }
 
 
         th {
-            text-align: center;
             background-color: var(--col5);
           }
 
+
           table {
-              padding: 30px;
               border: solid;
               border-collapse: collapse;
+              
           }
 
           table, th, td {
             border: 1px solid black;
+            text-align: center;
+            height: 50px;
+            padding: 5px;
           }
 
 
