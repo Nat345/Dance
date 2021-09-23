@@ -39,6 +39,26 @@
         background-size: cover;
     }
 
+    .introHead {
+        background-image: url(images/16\ avatars.jpg)
+    }
+
+    .oneHead {
+        background-image: url('/images/entpheader.png');
+    }
+
+    .twoHead {
+        background-image: url('/images/diplomats.jpg');
+    }
+
+    .threeHead {
+        background-image: url('/images/denfenders.png');
+    }
+
+    .fourHead {
+        background-image: url('/images/isfpheader.png');
+    }
+
     #imgOne {
         float: right;
         padding-left: 15px;
