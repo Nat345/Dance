@@ -3,19 +3,34 @@
     --col1: rgba(0, 0, 255, 0.534);
     --col2: rgb(189, 91, 0);
     --col3: #F59776;
-    --col4: #FF875D;
+    --col4: #ffd9cb;
     --col5:#00DEB2;
-    --col6: #CBF7FF;
+    --col6:#52dfc2e7;
+    --col7: #CBF7FF;
+    --col8:#f1fbfd;
     
 
     }
     body {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: var(--col6);
-        margin: 0;        
+        background-color: var(--col7);
+        margin: 0;    
+        background-color: var(--col4);    
     }
 
     h1{
+        text-align: center;
+    }
+
+    h2{
+        margin-left: 30px;
+    }
+
+    #headDiv {
+        margin-top: 80px;
+        padding-top: 100px;
+        background-color: var(--col7);
+        height: 200px;
         text-align: center;
     }
 
@@ -25,8 +40,11 @@
     }
 
     #myBody {
-        padding: 30px;
-        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top:0;
+        padding: 50px;
+        background-color: var(--col7);
     }
 
 
@@ -56,9 +74,9 @@
         #footer {
             text-align: center;
             font-size: medium;
-            padding: 5px;
-            background-color: var(--col5);
-            height: 40px;
+            padding-top: 30px;
+            background-color: var(--col6);
+            height: 50px;
         }
 
 
