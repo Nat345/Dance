@@ -125,6 +125,11 @@
             text-decoration: none;
             color:inherit;
         }
+
+        #logoImage {
+            float:left;
+            width: 40px;
+        }
        
 
 
@@ -153,6 +158,11 @@
             text-align: center;
             height: 50px;
             padding: 5px;
+          }
+
+          ul {
+              font-size: x-large;
+              padding-left: 200px;
           }
 
           #storyboardHead {
