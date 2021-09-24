@@ -162,7 +162,17 @@
 
           ul {
               font-size: x-large;
-              padding-left: 200px;
+              padding-left: 240px;
+          }
+
+          #headTwoTitle {
+              padding-left: 100px;
+          }
+
+          #sideImg {
+              float:right;
+              height: 200px;
+              padding-right:100px ;
           }
 
           #storyboardHead {
